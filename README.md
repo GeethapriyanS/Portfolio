@@ -36,7 +36,5 @@ I am currently pursuing a **Bachelor's degree in Computer Science and Engineerin
 - **Email**: Geethapriyan.s2023cse@sece.ac.in
 
 Feel free to explore my projects and get in touch if you have any questions, collaboration opportunities, or would like to discuss tech-related topics.
-
 ---
-
 Thank you for visiting my portfolio! 😊
