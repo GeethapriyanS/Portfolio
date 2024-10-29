@@ -2,19 +2,16 @@
 Welcome to my portfolio! This repository showcases the projects I've worked on, the skills I've developed, and my accomplishments in the fields of coding, web development, and competitive programming.
 ## About Me
 I am currently pursuing a **Bachelor's degree in Computer Science and Engineering (BE CSE)** at **Sri Eshwar College of Engineering**, Coimbatore. I am passionate about **software development** and **competitive programming**, constantly improving my skills and building impactful projects.
-
 - 📚 Solved **300+ problems** on LeetCode.
 - 🏅 Achieved **2nd prize** in an intra-college coding competition.
 - 🛠️ Actively working on **web development** and exploring **new technologies**.
 - 💡 Focused on expanding my knowledge in **software development**, **data structures**, and **algorithms**.
-
 ## Portfolio
 **Portfolio Website**
    - **Description**: A personal website that showcases my skills, projects, and achievements in software development and competitive programming.
    - **Tech Stack**: HTML, CSS, JavaScript
    - **Live Demo**: [https://geethapriyans.github.io/Portfolio/](#)
    - **GitHub Repository**: [https://github.com/GeethapriyanS/Portfolio.git](#)
-
 
 ## Skills
 - **Programming Languages**: C, C++, Python, JavaScript
@@ -26,7 +23,7 @@ I am currently pursuing a **Bachelor's degree in Computer Science and Engineerin
 
 ## Achievements
 
-- **LeetCode**: Solved over **300+ problems** across various difficulty levels.
+- **LeetCode**: Solved over **330+ problems** across various difficulty levels.
 - **Coding Competitions**: Secured **2nd prize** in an intra-college coding competition.
 
 ## Get in Touch
