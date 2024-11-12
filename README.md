@@ -12,7 +12,6 @@ I am currently pursuing a **Bachelor's degree in Computer Science and Engineerin
    - **Tech Stack**: HTML, CSS, JavaScript
    - **Live Demo**: [https://geethapriyans.github.io/Portfolio/](#)
    - **GitHub Repository**: [https://github.com/GeethapriyanS/Portfolio.git](#)
-
 ## Skills
 - **Programming Languages**: C, C++, Python, JavaScript
 - **Web Development**: HTML, CSS, JavaScript, React
@@ -20,7 +19,6 @@ I am currently pursuing a **Bachelor's degree in Computer Science and Engineerin
 - **Version Control**: Git, GitHub
 - **Problem Solving & Algorithms**: LeetCode (300+ problems solved), HackerRank
 - **Tools**: VS Code, Figma
-
 ## Achievements
 
 - **LeetCode**: Solved over **330+ problems** across various difficulty levels.
