@@ -7,14 +7,13 @@
   text-decoration: none;
   scroll-behavior: smooth;
   scroll-padding-top: 2rem;
-  font-family: "Poppins", sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 :root {
   --main-color: #1054ac;
-  --bg-color: #fff;
+  --bg-color: linear-gradient(to right, #c9d6ff, #e2e2e2);/*linear-gradient(to right, #74ebd5, #acb6e5); */
   --text-color: #151131;
   --hover: hsl(260, 94%, 59%);
- 
   --big-font: 3.2rem;
   --medium-font: 1.8rem;
   --p-font: 0.941rem;
@@ -79,8 +78,7 @@ header.shadow {
   font-weight: 500;
 }
 .navbar a:hover {
-  color: var(--hover);
-  text-decoration: underline;
+  color: white;
 }
 #menu-icon {
   font-size: 24px;
@@ -90,6 +88,7 @@ header.shadow {
 }
 #darkmode {
   font-size: 22px;
+  margin-left: 10px;
   cursor: pointer;
 }
 .home {
@@ -157,8 +156,25 @@ header.shadow {
  
 .about-img img {
   width: 80%;
-  border-radius: 50%;
+  border-radius: 100px;
   margin-top: 0;
+}
+.about-img img{
+  --_g: 10% /45% 45% no-repeat linear-gradient(#000 0 0);
+  --m:
+    left   var(--_i,0%) top    var(--_g),
+    bottom var(--_i,0%) left   var(--_g),
+    top    var(--_i,0%) right  var(--_g),
+    right  var(--_i,0%) bottom var(--_g);
+  -webkit-mask: var(--m);
+          mask: var(--m);
+  filter: grayscale();
+  transition: .3s linear;
+  cursor: pointer;
+}
+.about-img img:hover {
+  --_i: 10%;
+  filter: grayscale(0);
 }
 .about-text{
     margin-top: 100px;
@@ -235,7 +251,7 @@ span {
   width: 74%;
 }
 .react-bar {
-  width: 60%;
+  width: 40%;
 }
 .C-bar{
   width: 70%;
@@ -267,18 +283,23 @@ span {
   font-weight: 600;
   margin: 0.7rem 0 0.4rem;
 }
+.services-box >img{
+  width:200px;
+  height: auto;
+  border-radius: 5px;
+}
 .services-box:hover h3{
   color: #fff;
 }
-.services-box .bx {
+.services-box >img {
   padding-top: 2rem;
   font-size: 54px;
   color: var(--main-color);
 }
-.services-box:hover .bx{
+.services-box:hover >img{
   color: #22cf91;
 }
-.services-box a {
+.services-box >img {
   color: var(--main-color);
   font-size: var(--p-font);
   font-weight: 500;
@@ -350,7 +371,7 @@ form textarea {
   display: grid;
   place-items: center;
   padding: 20px;
-  background: #ebebeb;
+  background:linear-gradient(to right, #b3c5fe, #c3c3c3);
   color: #000;
 }
 .footer h2 {
@@ -492,3 +513,34 @@ form textarea {
     margin-left: 25%;
   }
 }
+
+.navbar > li::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.navbar > li:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.navbar > li::before {
+  content: " ";
+  display: inline;
+  position: absolute;
+  inset: 0 0 0 0;
+  background: hsl(260, 94%, 59%);
+  z-index: -1;
+  transition: transform .3s ease;
+}
+
+.navbar > li {
+  position: relative;
+  font-size: 1rem;
+}
+
+@media (orientation: landscape) {
+  body {
+    grid-auto-flow: column;
+  }
+} 
